@@ -1,0 +1,17 @@
+# Passo a passo para resolver um problema
+
+1. Quando o entrevistador fizer a pergunta, anote os pontos principais na parte superior. Verifique se você tem todos os detalhes. Mostre como você está organizado.
+2. Verifique quais são as entradas, e as saídas.
+3. Qual é o valor mais importante do problema? Você tem tempo, espaço e memória, etc? Qual o principal objetivo?
+4. Não seja chato fazendo muitas perguntas.
+5. Comece com a abordagem de força ingênua/bruta. Primeira coisa que vem à mente. Mostre que você é capaz de pensar criticamente (não precisa escrever o código, apenas fale sobre ele).
+6. Diga a eles porque essa abordagem não é a melhor, ou seja, O(n^2) ou superior, não é legível, etc.
+7. Siga sua abordagem, comente as coisas e veja onde você pode quebrá-las. Algumas repetições, gargalos com o O(n^2) ou trabalho desnecessário? Você usou todas as informações que o entrevistador te deu? Gargalo é a parte do código com o maior Big O. Às vezes, isso ocorre com trabalhos repetidos também.
+8. Antes de começar a codificar, percorra seu código e escreva as próximas etapas.
+9. Modularize seu código desde o início. Divida em pequenos pedaços e adicione comentários, se necessário.
+10. Comece realmente a escrever seu código. Lembre-se de quanto mais você se prepara e entende o que precisa codificar, melhor será o quadro branco. Portanto, nunca inicie um quadro branco em uma entrevista se não tiver certeza de como as coisas irão funcionar. Essa é a receita para o desastre. Lembre-se: muitas entrevistas fazem perguntas que você não poderá responder completamente a tempo. Então pense: o que posso mostrar para mostrar que posso fazer isso e sou melhor que outros. Divida as coisas em funções, se não se lembrar de um método apenas crie a função e a terá. Escreva algo e comece com a parte mais fácil.
+11. Pense em verificações de erro e como você pode quebrar esse código. Nunca faça suposições sobre entrada. Suponha que as pessoas estão tentando quebrar seu código e que Darth Vader está usando a função. Sempre verifique se há entradas falsas que você não deseja. Aqui está o truque: comente no código as verificações que você deseja fazer. Escreva a função e diga ao entrevistador que você escreveria testes agora para fazer sua função falhar (mas você não precisa fazer os testes).  
+12. Não use nomes ruins, confusos. Escreva um código que legível.
+13. Teste seu código: verifique se não há parâmetros, 0, undefined, null, massive arrays, async code, etc. A resposta retorna um erro? Há furos na solução? Há código repetido?
+14. Por fim, converse com o entrevistador onde ele melhoraria o código. Funciona? Existem abordagens diferentes? É legível? O que pesquisaria no Google? Como pode melhorar o desempenho? Possivelmente, pergunte qual foi a mais interessante solução vista para esse problema.
+15. Se o entrevistador estiver satisfeito com a solução, a entrevista geralmente termina. É comum que faça pergunta sobre extensão, como você lida com o problema se toda entrada for muito grande para caber na memória ou se a entrada chegar como um fluxo. Essa é uma pergunta comum onde se preocupam muito com a escala. A resposta geralmente é uma abordagem de dividir e conquistar - execute o processamento distribuído dos dados e apenas leia certos pedaços da entrada do disco na memória, escreva a saída novamente no disco e combiná-los mais tarde.
